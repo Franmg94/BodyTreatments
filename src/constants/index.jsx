@@ -38,13 +38,19 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Body Treatments Berlin",
-  info: "Event and Operation Manager / Community Builder / Program Curator ",
+  info: "Experience the massage modalities that are right for you in the moment and in the context of your overall healing.",
 };
 
-export const TAGS = [
-  "Event and Operation Manager",
-  "Community Builder",
-  "Program Curator",
+export const LOCATIONS = [
+  {
+    name: "Centro Delfino",
+    description:
+      "Only on Tuesdays. You will be redirected to Centro Delfino Website.",
+  },
+  {
+    name: "At Client's Address",
+    description: "Transportation is not included.",
+  },
 ];
 
 export const ABOUT = {

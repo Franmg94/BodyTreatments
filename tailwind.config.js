@@ -39,7 +39,6 @@ module.exports = {
           },
 
           // SLIDING FORM
-
           ".title-form": {
             "@apply text-2xl font-semibold mb-4 tracking-wider font-abril": {},
           },
@@ -60,6 +59,10 @@ module.exports = {
           },
           ".next-button": {
             "@apply border-2 border-black tracking-wider uppercase py-1 px-2 hover:text-white hover:bg-black transform transition-transform duration-300":
+              {},
+          },
+          ".button-form": {
+            "@apply border-2 border-black tracking-wider uppercase py-1 px-2 bg-black text-white hover:text-black hover:bg-white transform transition-transform duration-300":
               {},
           },
         },
