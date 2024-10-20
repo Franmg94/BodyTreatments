@@ -4,13 +4,14 @@ const FormContext = createContext(undefined);
 
 export const FormProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [step, setStep] = useState(1);
 
   const toggleForm = () => {
     setIsOpen((prev) => !prev);
   };
 
   return (
-    <FormContext.Provider value={{ isOpen, toggleForm }}>
+    <FormContext.Provider value={{ isOpen, toggleForm, step, setStep }}>
       {children}
     </FormContext.Provider>
   );

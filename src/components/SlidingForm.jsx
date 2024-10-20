@@ -5,8 +5,7 @@ import { LOCATIONS } from "../constants";
 import ContactForm from "./ContactForm";
 
 const SlidingForm = () => {
-  const { isOpen, toggleForm } = useFormContext();
-  const [step, setStep] = useState(1);
+  const { isOpen, toggleForm, setStep, step } = useFormContext();
 
   const renderStep = () => {
     switch (step) {

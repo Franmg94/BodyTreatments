@@ -2,7 +2,7 @@ import React from "react";
 import profileImage from "../assets/images/profile.jpg";
 import { ABOUT } from "../constants";
 
-const AboutMeSection = () => {
+const About = () => {
   return (
     <section id="about-me" className="bg-white p-12">
       <div className="container mx-auto px-4 flex flex-col-reverse gap-7 md:flex-row items-center">
@@ -27,4 +27,4 @@ const AboutMeSection = () => {
   );
 };
 
-export default AboutMeSection;
+export default About;

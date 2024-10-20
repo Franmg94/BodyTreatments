@@ -1,12 +1,14 @@
-import AboutMeSection from "./components/AboutMe";
+import About from "./components/About";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import { FormProvider } from "./components/FormContext";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import PriceSection from "./components/PriceSection";
-import ReserveSection from "./components/ReserveSection";
+import PricingDetails from "./components/PricingDetails";
+import Booking from "./components/Booking";
 import SlidingForm from "./components/SlidingForm";
-import TreatmentsSection from "./components/TreatmentsSection";
+import Treatments from "./components/Treatments";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,12 +17,14 @@ function App() {
         <Navbar />
         <SlidingForm />
         <Hero />
-        <ReserveSection />
-        <TreatmentsSection />
-        <PriceSection />
+        <Booking />
+        <Treatments />
+        <PricingDetails />
         <Banner />
-        <AboutMeSection />
+        <About />
+        <Contact />
       </FormProvider>
+      <Footer />
     </>
   );
 }

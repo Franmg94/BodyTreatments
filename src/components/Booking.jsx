@@ -1,6 +1,6 @@
 import { useFormContext } from "./FormContext";
 
-const ReserveSection = () => {
+const Booking = () => {
   const { toggleForm } = useFormContext();
 
   return (
@@ -25,4 +25,4 @@ const ReserveSection = () => {
   );
 };
 
-export default ReserveSection;
+export default Booking;

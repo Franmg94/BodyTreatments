@@ -1,12 +1,12 @@
 import { TREATMENTS } from "../constants";
 
-const TreatmentsSection = () => {
+const Treatments = () => {
   return (
     <section id="treatments">
       <div className="container mx-auto p-5 max-w-screen-xl">
         <div>
           {TREATMENTS.map((treatment, index) => (
-            <div key={treatment.value}>
+            <div key={index}>
               <div
                 className={`flex flex-col ${
                   index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
@@ -24,7 +24,7 @@ const TreatmentsSection = () => {
                 <div className="md:w-1/2">
                   <img
                     src={treatment.image}
-                    alt=""
+                    alt="Treatment Image"
                     className="w-full h-96 object-cover"
                   />
                 </div>
@@ -38,4 +38,4 @@ const TreatmentsSection = () => {
   );
 };
 
-export default TreatmentsSection;
+export default Treatments;

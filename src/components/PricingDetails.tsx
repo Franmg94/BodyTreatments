@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormContext } from "./FormContext";
 
-const PriceSection = () => {
+const PricingDetails = () => {
   const { toggleForm } = useFormContext();
 
   return (
@@ -46,4 +46,4 @@ const PriceSection = () => {
   );
 };
 
-export default PriceSection;
+export default PricingDetails;
