@@ -53,9 +53,9 @@ export const LOCATIONS = [
 
 export const ABOUT = {
   text1:
-    "I create events, responsive websites that blend creativity with efficiency",
+    "Hi, I'm Fran aka Paka, your professional massage therapist in  Berlin. My experience as a dancer has greatly influenced my approach  to massage therapy, allowing me to understand the body’s movements,  tensions, and the need for relaxation deeply.",
   text2:
-    "Hello! I'm Ceren Kallay, I'm an event producer and cultural curator based in Berlin, originally from Turkey. I graduated from the Department of European Union Studies at Istanbul Bilgi University and have over a decade of experience in the entertainment industry. I have  had the privilege of working as a coordinator and event manager for major events and film festivals, including the !f İstanbul Independent Film Festival and the Istanbul Film Festival.",
+    "Through my years of dancing, I have developed a keen awareness of how to work with the body to relieve stress and pain. I use my knowledge of movement and anatomy to provide personalized massage treatments that promote healing and well-being. Whether you're an athlete, a dancer, or someone seeking relaxation, my goal is to help you achieve balance and comfort through tailored massage techniques.",
 };
 
 export const TREATMENTS = [

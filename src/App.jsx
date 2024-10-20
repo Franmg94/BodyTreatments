@@ -1,3 +1,4 @@
+import AboutMeSection from "./components/AboutMe";
 import Banner from "./components/Banner";
 import { FormProvider } from "./components/FormContext";
 import Hero from "./components/Hero";
@@ -18,6 +19,7 @@ function App() {
         <TreatmentsSection />
         <PriceSection />
         <Banner />
+        <AboutMeSection />
       </FormProvider>
     </>
   );
