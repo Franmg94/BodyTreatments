@@ -3,7 +3,6 @@ import { useFormContext } from "./FormContext";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { LOCATIONS } from "../constants";
 import ContactForm from "./ContactForm";
-ContactForm;
 
 const SlidingForm = () => {
   const { isOpen, toggleForm } = useFormContext();
@@ -37,7 +36,7 @@ const SlidingForm = () => {
                     >
                       {location.name}
                     </button>
-                    <p clas>{location.description}</p>
+                    <p>{location.description}</p>
                   </div>
                 );
               })}
