@@ -1,8 +1,6 @@
 import { TREATMENTS } from "../constants";
 
 const TreatmentsSection = () => {
-  console.log(TREATMENTS);
-
   return (
     <section id="treatments">
       <div className="container mx-auto p-5 max-w-screen-xl">
