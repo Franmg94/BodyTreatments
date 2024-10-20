@@ -17,11 +17,12 @@ const Contact = () => {
         <h2 className="text-3xl mb-10 font-abril">Contact Me</h2>
 
         <div className="flex flex-col md:justify-center items-center">
-          <div className="w-2/5">
+          <div className="mb-10">
             <p className="text-lg font-heebo leading-relaxed">
-              If you are a Web Developer, I would be very happy to receive any
-              feedback about this web app or if you have any questions or would
-              like to book a session, please reach out to me:
+              If you have any questions or would like to <strong>Book</strong> a
+              session, please don't heasitate to reach out!
+              <br /> As a <strong>Web Developer</strong>, I would love to
+              receive your feedback on this webpage:
             </p>
           </div>
           <button

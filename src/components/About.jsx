@@ -1,17 +1,17 @@
 import React from "react";
-import profileImage from "../assets/images/profile.jpg";
+import profileImage from "../assets/images/profile-3.jpg";
 import { ABOUT } from "../constants";
 
 const About = () => {
   return (
-    <section id="about-me" className="bg-white p-12">
+    <section id="about" className="bg-white p-12">
       <div className="container mx-auto px-4 flex flex-col-reverse gap-7 md:flex-row items-center">
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
-          <div className="relative w-64 h-64 custom-rotate-shadow">
+          <div className="relative ">
             <img
               src={profileImage}
               alt="Profile"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover "
             />
           </div>
         </div>

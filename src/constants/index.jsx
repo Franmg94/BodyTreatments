@@ -30,7 +30,6 @@ export const NAVIGATION_LINKS = [
   { label: "Treatments", href: "#treatments" },
   { label: "Prices", href: "#prices" },
   { label: "About", href: "#about" },
-  { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -102,94 +101,6 @@ export const TREATMENTS = [
     image: treatment6,
   },
 ];
-
-// export const PROJECTS = [
-//   {
-//     title: "E-commerce Platform",
-//     subtitle:
-//       "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
-//     image: image1,
-//   },
-//   {
-//     title: "Social Media App",
-//     subtitle:
-//       "A social media application developed using Next.js and Firebase.",
-//     image: image2,
-//   },
-//   {
-//     title: "Project Management Tool",
-//     subtitle: "A project management tool built with Django and PostgreSQL.",
-//     image: image3,
-//   },
-//   {
-//     title: "Personal Portfolio",
-//     subtitle:
-//       "A personal portfolio website designed with HTML, CSS, and JavaScript.",
-//     image: image4,
-//   },
-//   {
-//     title: "Weather Dashboard",
-//     subtitle:
-//       "A weather dashboard application built with Vue.js and Express.js.",
-//     image: image5,
-//   },
-//   {
-//     title: "Blog Platform",
-//     subtitle:
-//       "A blogging platform developed with Ruby on Rails and PostgreSQL.",
-//     image: image6,
-//   },
-//   {
-//     title: "Fitness Tracker",
-//     subtitle: "A fitness tracking app created using Flutter and Firebase.",
-//     image: image7,
-//   },
-//   {
-//     title: "Recipe Finder",
-//     subtitle: "A recipe finder application developed with Angular and Node.js.",
-//     image: image8,
-//   },
-// ];
-
-export const SKILLS = [
-  {
-    icon: <RiReactjsLine className="text-4xl lg:text-6xl text-cyan-400" />,
-    name: "React",
-    experience: "2+ years",
-  },
-  {
-    icon: <TbBrandNextjs className="text-4xl lg:text-6xl text-white" />,
-    name: "Next.js",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiMongodb className="text-4xl lg:text-6xl text-green-600" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <DiRedis className="text-4xl lg:text-6xl text-red-600" />,
-    name: "Redis",
-    experience: "1+ year",
-  },
-  {
-    icon: <FaNodeJs className="text-4xl lg:text-6xl text-green-600" />,
-    name: "Node.js",
-    experience: "2+ years",
-  },
-  {
-    icon: <BiLogoPostgresql className="text-4xl lg:text-6xl text-sky-700" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
-  },
-];
-
-export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
-  award: "Gold Medalist - 2024",
-  description:
-    "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
-};
 
 // export const TESTIMONIALS = [
 //   {

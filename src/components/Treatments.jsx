@@ -2,7 +2,7 @@ import { TREATMENTS } from "../constants";
 
 const Treatments = () => {
   return (
-    <section id="treatments">
+    <section>
       <div className="container mx-auto p-5 max-w-screen-xl">
         <div>
           {TREATMENTS.map((treatment, index) => (

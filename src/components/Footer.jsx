@@ -16,11 +16,8 @@ const Footer = () => {
             <a href="#treatments" className="hover:text-light-green">
               Treatments
             </a>
-            <a href="#about-me" className="hover:text-light-green">
+            <a href="#about" className="hover:text-light-green">
               About
-            </a>
-            <a href="#contact" className="hover:text-light-green">
-              Contact
             </a>
           </div>
           <div className="flex space-x-4">

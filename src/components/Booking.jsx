@@ -5,7 +5,7 @@ const Booking = () => {
 
   return (
     <section
-      // id="treatments"
+      id="treatments"
       className="mx-16 py-11 mb-11 flex flex-col items-center"
     >
       <h2 className="font-abril text-4xl mb-8 uppercase text-center">
