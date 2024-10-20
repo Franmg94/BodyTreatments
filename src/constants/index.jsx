@@ -14,14 +14,12 @@ import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
-// import image1 from "../assets/project-pictures/project1.jpg";
-// import image2 from "../assets/project-pictures/project2.jpg";
-// import image3 from "../assets/project-pictures/project3.jpg";
-// import image4 from "../assets/project-pictures/project4.jpg";
-// import image5 from "../assets/project-pictures/project5.jpg";
-// import image6 from "../assets/project-pictures/project6.png";
-// import image7 from "../assets/project-pictures/project7.jpg";
-// import image8 from "../assets/project-pictures/project8.jpg";
+import treatment1 from "../assets/images/treatment-1.jpg";
+import treatment2 from "../assets/images/treatment-2.jpg";
+import treatment3 from "../assets/images/treatment-3.jpg";
+import treatment4 from "../assets/images/treatment-4.jpg";
+import treatment5 from "../assets/images/treatment-5.jpg";
+import treatment6 from "../assets/images/treatment-6.jpg";
 
 // import user1 from "../assets/profile-pictures/user1.jpg";
 // import user2 from "../assets/profile-pictures/user2.jpg";
@@ -59,6 +57,51 @@ export const ABOUT = {
   text2:
     "Hello! I'm Ceren Kallay, I'm an event producer and cultural curator based in Berlin, originally from Turkey. I graduated from the Department of European Union Studies at Istanbul Bilgi University and have over a decade of experience in the entertainment industry. I have  had the privilege of working as a coordinator and event manager for major events and film festivals, including the !f İstanbul Independent Film Festival and the Istanbul Film Festival.",
 };
+
+export const TREATMENTS = [
+  {
+    treatmentName: "Wellness Massage",
+    subTitle: "Ease tension with light, rhymic strokes",
+    description:
+      "A relaxing wellness massage designed to rejuvenate your mind and body. This treatment combines gentle techniques to help you unwind, relieve stress, and improve your overall well-being.",
+    image: treatment1,
+  },
+  {
+    treatmentName: "Holistic Massage",
+    subTitle: "A harmonious blend of soul, mind, and body",
+    description:
+      "A holistic approach to massage that addresses the whole person – mind, body, and spirit. This treatment aims to balance your energies and promote natural healing through various techniques tailored to your needs.",
+    image: treatment2,
+  },
+  {
+    treatmentName: "Energy Work",
+    subTitle: "Nourish your aura with touch-free energy",
+    description:
+      "Energy work to balance your body and restore harmony. This treatment focuses on clearing blockages, enhancing the flow of energy, and bringing your body into a state of equilibrium.",
+    image: treatment3,
+  },
+  {
+    treatmentName: "Deep Tissue Massage",
+    subTitle: "Release tension with strong pressure",
+    description:
+      "Deep tissue massage for muscle relief and tension release. This intensive treatment targets the deeper layers of muscle tissue to alleviate chronic pain, improve mobility, and promote muscle recovery.",
+    image: treatment4,
+  },
+  {
+    treatmentName: "Urban Sports Club Massage",
+    subTitle: "For clients with L suscription",
+    description:
+      "Specialized massage treatments for Urban Sports Club members. 25 min session with the option to extend paying a small amount.",
+    image: treatment5,
+  },
+  {
+    treatmentName: "Class Pass Massage",
+    subTitle: "For clients of Class Pass",
+    description:
+      "Exclusive massage services for ClassPass members. Please check in before through your app.",
+    image: treatment6,
+  },
+];
 
 // export const PROJECTS = [
 //   {

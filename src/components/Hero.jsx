@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import massageImage from "../assets/almendro-1.jpg";
+import massageImage from "../assets/images/almendro-1.jpg";
 
 const Hero = () => {
   const [offsetY, setOffsetY] = useState(0);
