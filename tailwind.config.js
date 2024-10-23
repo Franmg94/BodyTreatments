@@ -38,6 +38,30 @@ module.exports = {
             "text-shadow": "4px 4px 8px rgba(0, 0, 0, 0.5)",
           },
 
+          // TEXTS
+          ".subtitle-sm": {
+            "@apply uppercase text-slate-100 text-base font-raleway": {},
+          },
+          ".subtitle-md": {
+            "@apply uppercase text-slate-100 text-xl font-raleway": {},
+          },
+
+          ".title-sm": {
+            "@apply font-abril uppercase text-3xl mb-4 text-slate-100": {},
+          },
+          ".title-md": {
+            "@apply font-abril uppercase text-5xl mb-4 text-slate-100": {},
+          },
+          ".title-section": {
+            "@apply text-3xl mb-10 font-abril": {},
+          },
+          ".title-section--lg": {
+            "@apply text-3xl mb-10 font-abril": {},
+          },
+          ".title-section--lg": {
+            "@apply text-4xl mb-10 font-abril": {},
+          },
+
           // SLIDING FORM
           ".title-form": {
             "@apply text-2xl font-semibold mb-4 tracking-wider font-abril": {},

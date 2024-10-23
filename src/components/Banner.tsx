@@ -15,7 +15,7 @@ const Banner = () => {
 
   return (
     <section
-      className="relative h-screen w-screen my-20 bg-cover bg-center"
+      className="relative h-screen w-screen mt-20 bg-cover bg-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundAttachment: "fixed",
@@ -25,12 +25,10 @@ const Banner = () => {
     >
       <div className="flex items-center justify-center h-full bg-black bg-opacity-10">
         <div className="text-center ">
-          <h3 className="uppercase text-slate-100 text-xl font-raleway">
+          <h3 className="subtitle-sm md:subtitle-md">
             Massages makes bodies better
           </h3>
-          <h1 className="font-abril uppercase text-5xl g mb-4 text-slate-100">
-            Body Treatments Berlin
-          </h1>
+          <h1 className="title-sm md:title-md">Body Treatments Berlin</h1>
         </div>
       </div>
     </section>

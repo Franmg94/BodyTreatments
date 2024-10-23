@@ -9,6 +9,7 @@ import Booking from "./components/Booking";
 import SlidingForm from "./components/SlidingForm";
 import Treatments from "./components/Treatments";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Treatments />
         <PricingDetails />
         <Banner />
+        <Testimonials />
         <About />
         <Contact />
       </FormProvider>

@@ -21,14 +21,15 @@ import treatment4 from "../assets/images/treatment-4.jpg";
 import treatment5 from "../assets/images/treatment-5.jpg";
 import treatment6 from "../assets/images/treatment-6.jpg";
 
-// import user1 from "../assets/profile-pictures/user1.jpg";
-// import user2 from "../assets/profile-pictures/user2.jpg";
-// import user3 from "../assets/profile-pictures/user3.jpg";
-// import user4 from "../assets/profile-pictures/user4.jpg";
+import user1 from "../assets/images/user1.jpg";
+import user2 from "../assets/images/user2.jpg";
+import user3 from "../assets/images/user3.jpg";
+import user4 from "../assets/images/user4.jpg";
 
 export const NAVIGATION_LINKS = [
   { label: "Treatments", href: "#treatments" },
   { label: "Prices", href: "#prices" },
+  { label: "Testimonials", href: "#testimonials" },
   { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
@@ -102,36 +103,36 @@ export const TREATMENTS = [
   },
 ];
 
-// export const TESTIMONIALS = [
-//   {
-//     name: "Emily Johnson",
-//     title: "CEO, Tech Innovators",
-//     quote:
-//       "Working with Robert has been an incredible experience. His design sensibilities and technical expertise are top-notch, making him a valuable asset to any project.",
-//     image: user1,
-//   },
-//   {
-//     name: "Michael Lee",
-//     title: "CTO, Creative Minds",
-//     quote:
-//       "Robert consistently delivers high-quality work, combining creativity and technical prowess. His ability to solve complex problems with elegant solutions is truly impressive.",
-//     image: user2,
-//   },
-//   {
-//     name: "Sophia Martinez",
-//     title: "Lead Developer, Digital Solutions",
-//     quote:
-//       "Robert's dedication to his craft is evident in every project he undertakes. His innovative approach and attention to detail set him apart as a leading designer and developer.",
-//     image: user3,
-//   },
-//   {
-//     name: "Daniel Thompson",
-//     title: "Project Manager, InnovateX",
-//     quote:
-//       "Robert's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
-//     image: user4,
-//   },
-// ];
+export const TESTIMONIALS = [
+  {
+    name: "Alex J.",
+    title: "Client",
+    quote:
+      "The Wellness Massage left me feeling completely at ease. Fran’s touch is intuitive, and I could feel the stress melt away with every stroke. I'll definitely be back!",
+    image: user1,
+  },
+  {
+    name: "Charlie K.",
+    title: "Client",
+    quote:
+      "I tried the Holistic Massage, and it was like Fran knew exactly what my body needed. I walked out feeling balanced and more connected to myself.",
+    image: user2,
+  },
+  {
+    name: "Sam R.",
+    title: "Client",
+    quote:
+      "Fran's Energy Work is incredible! I wasn’t sure what to expect from a touch-free session, but I left feeling lighter and more centered. It was such a unique experience.",
+    image: user3,
+  },
+  {
+    name: "Jamie L.",
+    title: "Client",
+    quote:
+      "The Deep Tissue Massage is exactly what I needed after a long week. Fran’s technique is strong and precise—I felt so much relief afterward!",
+    image: user4,
+  },
+];
 
 export const SOCIAL_MEDIA_LINKS = [
   {

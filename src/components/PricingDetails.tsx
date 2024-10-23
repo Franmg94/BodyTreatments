@@ -7,7 +7,7 @@ const PricingDetails = () => {
   return (
     <section id="prices">
       <div className="mx-20">
-        <div className="flex flex-col md:flex-row md:space-x-8 justify-around">
+        <div className="flex flex-col items-center md:flex-row md:space-x-8 justify-around">
           <div className="p-6 text-center">
             <h3 className="text-lg mb-2 uppercase font-raleway">
               Most modalities
