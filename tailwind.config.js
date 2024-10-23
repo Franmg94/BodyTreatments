@@ -61,6 +61,14 @@ module.exports = {
             "@apply border-2 border-black tracking-wider uppercase py-1 px-2 hover:text-white hover:bg-black transform transition-transform duration-300":
               {},
           },
+          ".button-reserve": {
+            "@apply mt-10 border-2 border-black tracking-wider font-bold uppercase py-5 px-8 hover:text-white hover:bg-black   transform transition-transform duration-300":
+              {},
+          },
+          ".button-nav--mobile": {
+            "@apply tracking-wider text-sm italic font-heebo text-black uppercase py-2 px-8 hover:text-white hover:bg-black   transform transition-transform duration-300":
+              {},
+          },
           ".button-form": {
             "@apply border-2 border-black tracking-wider uppercase py-1 px-2 bg-black text-white hover:text-black hover:bg-white transform transition-transform duration-300":
               {},

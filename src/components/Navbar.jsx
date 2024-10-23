@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="fixed left-0 right-0 lg:top-4 z-50">
+      <nav className="absolute left-0 right-0 lg:top-4 z-50">
         {/* Desktop Menu */}
         <div className="mx-auto px-8 hidden max-w-2-xl  justify-between rounded-lg gap-6 py-3 text-white lg:flex">
           <button
@@ -57,9 +57,9 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className="rounded-lg backdrop-blur-md lg:hidden">
+        <div className="fixed w-full bg-white shadow-md lg:hidden">
           <div className="flex items-center justify-between">
-            <button onClick={toggleForm} className="pl-4 text-white">
+            <button onClick={toggleForm} className=" button-nav--mobile">
               Book Now
             </button>
             <button
@@ -67,26 +67,29 @@ const Navbar = () => {
               onClick={toggleMobileMenuOpen}
             >
               {isMobileMenuOpen ? (
-                <FaTimes className="m-2 h-6 w-5 text-white" />
+                <FaTimes className="m-2 h-6 w-5 text-black" />
               ) : (
-                <FaBars className="m-2 h-6 w-5 text-white" />
+                <FaBars className="m-2 h-6 w-5 text-black" />
               )}
             </button>
           </div>
           {isMobileMenuOpen && (
-            <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
-              {NAVIGATION_LINKS.map((link, index) => (
-                <li key={index}>
-                  <a
-                    href={link.href}
-                    className="block w-full text-xl font-semibold text-white"
-                    onClick={(e) => handleLinkClick(e, link.href)}
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            <>
+              <div className="border-t border-gray-200"></div>
+              <ul className="ml-4  p-4 flex flex-col gap-4 ">
+                {NAVIGATION_LINKS.map((link, index) => (
+                  <li key={index}>
+                    <a
+                      href={link.href}
+                      className="block w-full text-xl font-semibold text-black"
+                      onClick={(e) => handleLinkClick(e, link.href)}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
           )}
         </div>
       </nav>
